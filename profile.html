@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .logo{
+            width: 150px;
+            height: 150px;
+            border-radius: 65px;
+            float: left;
+        }
+        header{
+            background-color: rgb(98, 132, 199);
+            text-align: center;
+            color: black;
+            border: 40px;
+            border-radius: 20px;
+            padding: 0;
+            margin: 0;
+        }
+        .anchor{
+            background-color:cornsilk;
+            text-align: left;
+            word-spacing: 4px;
+        }
+        .size{
+            border: 3px solid blue;
+            text-align: justify;
+            padding: 15px;
+            background-position: left;
+            background-color:rgb(195, 175, 175);
+            margin-right: 600px;
+            margin-bottom: 0;
+            margin-top: 30px;
+        }
+        h1{
+            text-align: center;
+            font-size: 50px;
+        }
+        body{
+            background-color:blue;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap; 
+        }
+        .item {
+        flex: 1;
+        padding: 10px;
+        background-color:darkmagenta;
+        box-sizing: border-box;
+        flex-basis: 25%; 
+        padding: 20px;
+        box-sizing: 
+        border: 1px solid #ccc;
+        }
+        .footer{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .cap{
+        flex-basis: 25%;
+        padding: 20px;
+        box-sizing: border-box; 
+        background-color: #0b0404;
+        border: 0 solid #362020;
+        color: white;
+}
+</style>
+</head>
+<body>
+    <a name="TopOfThePage"> </a>
+    <header>
+        <!--This section contains  nav (anchor), image (logo) and head tags all in header-->
+        
+        <img class="logo" src="image/mylogo.png" alt="Alhassan">
+        <h1>ABDULLAAHI ALHASSAN</h1>
+         <br>
+         <br>
+         <br>
+         
+         <br> <br>
+        <nav class="anchor">
+            <a href="home">Home</a>
+            <a href="about">About</a>
+            <a href="resume">Resume</a>
+            <a href="contact">Contact</a>
+            <a href="gomycode">GoMyCode</a>
+            <a href="fullstack js">FullStack Js</a>
+        </nav>  
+    </header>
+
+    <main>
+        <!--This contains the major part of this project like the -->
+        <h3 style="background-color: black; width:auto; height: 50px; color: white; margin-top: 0;">ABOUT📋</h3>
+        
+      <section class="size">
+        <p>To become an active team player that can contribute to the development of an environment that thrives on adherence to excellent standards, sound professional processes and training, goal and well-structured career development prospect and competitive rewards research sector. A resourceful self-starter, keen minded highly motivated, adaptable to pressure and result oriented. A highly versatile individual with good interpersonal, organizational, analytical and technical skills gained through college.</p>
+      </section> <br>
+
+    <p style="background-color: black; height: 45px; color: white;"> <b>CHECK OUT THIS VIDEO BELOW FOR MY SERVICES</b></p>
+     <br>
+    
+    <div class="container">
+         <!-- Your video element with the video source -->
+
+        <div class="item">
+            <video src="audio/fun.mp4" width"250" height="250" controls style="border-radius: 30px;"></video>
+        </div>
+
+         <!-- Your image element with the image source -->
+
+        <div class="item">
+            <img src="image/my photo.jpg" alt="Alhassan" style="height: 250px; width: 400px; border-radius: 25px;">
+        </div> <br> <br> <br>
+
+        <div class="item"><form action=""> <h3>FILL IN THE FORM!!!</h3></form>
+
+         <!--This is Your form element -->
+            <label for="name">Full Name:</label>
+            <input type="text" name="full name" placeholder="Abdullahi Alhassan"> <br> <br>
+    
+            <label for="age">Age:</label> 
+            <input type="number" name="age" placeholder="21"> <br> <br>
+    
+            <label for="pnumber"><b>Phone Number:</b></label>
+            <input type="number" name="number" id="number" placeholder="0810978...."> <br> <br>
+    
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" id="email" placeholder="@gmail.com">
+
+            <input type="submit" value="Submit">
+        </div>
+
+           <!-- Your audio element with the music source -->
+        <div class="item">
+            <audio src="audio/Imam Ahmad.m4a" controls></audio>
+        </div>
+      </div>
+    </div>
+
+    <!--This is the radio, checkbox-->
+<div>
+  <h4>Kindly choose the following options:</h4>
+  <h2>Gender</h2>
+  <input type="radio" id="option1" name="radioGroup" value="Option 1">
+  <label for="option1">Male</label>
+  <br>
+  <input type="radio" id="option2" name="radioGroup" value="Option 2">
+  <label for="option2">Female</label>
+  
+  <h2>Database</h2>
+  <input type="checkbox" id="checkbox1" name="checkboxGroup" value="Checkbox 1">
+  <label for="checkbox1">MySQL</label> <br>
+
+  <input type="checkbox" id="checkbox2" name="checkboxGroup" value="Checkbox 2">
+  <label for="checkbox2">NoSQL</label>
+</div>
+<br>
+
+<!--This is the textarea-->
+<textarea rows="4" cols="40">Drop A message for Us</textarea>
+
+<!--This is the table tag for this project-->
+<h3>Table</h3>
+  <table border="1">
+    <tr>
+      <th>ABUJA</th> 
+      <th>LAGOS</th> 
+      <th>KANO</th>
+    </tr>
+    <tr>
+      <td>Wuse II</td>
+      <td>Lekki</td>
+      <td>Dala</td>
+    </tr>
+  </table>
+</main>
+<br>
+
+<!--This is the footer of this project-->
+<footer>
+        <div class="footer">
+            <div class="cap">
+                <h3>Our Services</h3>
+                <ul>
+                    <li>Web Developer</li>
+                    <li>Verification</li>
+                    <li>Data Analysis</li>
+                    <li>GoMyCode</li>
+                </ul>
+            </div>
+            <div class="cap" style="padding-left: 0;">
+                <h3>Contact</h3>
+                <ol>
+                    <li>Phone: 08109787393</li>
+                    <li><a href="">abdallaahelhassani60@gmail.com</a></li>
+                    <li>Location: Abuja</li>
+                    <li>Abdullahi</li>
+                </ol>
+            </div>
+
+            <!--The social media Links-->
+            <div class="cap">
+                <h3>Social Media Links</h3>
+                <ol>
+                    <!-- WhatsApp -->
+                    <li><i class="fab fa-whatsapp">WhatsApp</i></li>
+
+                    <!-- Instagram -->
+                    <li><i class="fab fa-instagram">Instagram</i></li>
+
+                    <!-- Twitter -->
+                    <li><i class="fab fa-twitter">Twitter</i></li>
+
+                    <!-- Facebook -->
+                    <li><i class="fab fa-facebook">Facebook</i></li>
+
+                </ol>
+            </div>
+            <div class="cap">
+                <h3>GoMyCode</h3>
+                <ul>
+                    <li>Tech Bro</li>
+                    <li>Tech Sis</li>
+                    <li>Tech Friend</li>
+                    <li>Tech Tech</li>
+                </ul>
+            </div>
+                 <!--This is local link for the page-->
+            <a href="#TopOfThePage"> Let's go up Top </a>
+          </div>          
+</footer>
+</body>
+</html>
