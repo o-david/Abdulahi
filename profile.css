@@ -1,0 +1,30 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 65px;
+    float: left;
+}
+.anchor{
+    background-color:cornsilk;
+    text-align: left;
+    word-spacing: 4px;
+}
+.item {
+    flex: 1;
+    padding: 10px;
+    background-color:darkmagenta;
+    box-sizing: border-box;
+    flex-basis: 25%; 
+    padding: 20px;
+    box-sizing: 
+    border: 1px solid #ccc;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
